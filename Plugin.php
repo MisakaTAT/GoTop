@@ -86,9 +86,9 @@ class GoTop_Plugin implements Typecho_Plugin_Interface
         $path = Helper::options()->pluginUrl . '/GoTop/';
         $rightWidth = Typecho_Widget::widget('Widget_Options')->plugin('GoTop')->rightWidth;
         if ($rightWidth) {
-            echo '<div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -900px;right:' . $rightWidth . 'px;"></div>';
+            echo '<div class="back-to-top faa-float animated cd-is-visible" style="top: -900px;right:' . $rightWidth . 'px;"></div>';
         } else {
-            echo '<div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -900px;right:100px;"></div>';
+            echo '<div class="back-to-top faa-float animated cd-is-visible" style="top: -900px;right:100px;"></div>';
         }
         echo '<script type="text/javascript" src="' . $path . 'js/main.js"></script>';
     }
