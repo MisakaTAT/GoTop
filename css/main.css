@@ -1,3 +1,9 @@
+/**
+ * Typecho猫耳FM置顶插件
+ *
+ * @author Zero
+ * @link https://github.com/MisakaTAT/GoTop
+ */
 @media (max-width: 1000px) {
   .back-to-top {
     display: none !important;

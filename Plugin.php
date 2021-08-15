@@ -5,7 +5,7 @@
  *
  * @package GoTop
  * @author Zero
- * @version 2.0.0
+ * @version 2.0.1
  * @link https://github.com/MisakaTAT/GoTop
  */
 

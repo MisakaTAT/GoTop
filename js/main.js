@@ -1,3 +1,9 @@
+/**
+ * Typecho猫耳FM置顶插件
+ *
+ * @author Zero
+ * @link https://github.com/MisakaTAT/GoTop
+ */
 $(function () {
   $(window).scroll(function () {
     var scroHei = $(window).scrollTop();
